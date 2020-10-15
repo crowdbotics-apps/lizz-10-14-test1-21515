@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import BlankScreen1143072Navigator from '../features/BlankScreen1143072/navigator';
-import BlankScreen0143071Navigator from '../features/BlankScreen0143071/navigator';
 
 /**
  * new navigators can be imported here
@@ -16,7 +15,6 @@ const AppNavigator = {
 
     //@BlueprintNavigationInsertion
 BlankScreen1143072: { screen: BlankScreen1143072Navigator },
-BlankScreen0143071: { screen: BlankScreen0143071Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
