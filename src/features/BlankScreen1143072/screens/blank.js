@@ -27,13 +27,9 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View style={styles.View_1}>
-      <Text style={styles.Text_3}>blank screen 1</Text>
-      <Button
-        title="Button does nothing"
-        color="#3366FF"
-        style={styles.Button_5}
-        onPress={() => alert("Pressed!")}
-      />
+      <Text>blank screen 1</Text>
+      <Button title="Button does nothing" onPress={() => alert("Pressed!")} />
+      <Icon name="plane" />
     </View>
   )
 }
@@ -43,6 +39,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {
     marginLeft: 0,
     marginRight: 0,
@@ -72,6 +69,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 0,
     borderRadius: 0
   },
+
   Text_3: {
     marginLeft: 0,
     marginRight: 0,
@@ -102,6 +100,7 @@ const styles = StyleSheet.create({
     lineHeight: 12,
     letterSpacing: 0
   },
+
   Button_5: {
     width: "100%",
     marginLeft: 0,
@@ -132,5 +131,9 @@ const styles = StyleSheet.create({
     textTransform: "none",
     lineHeight: 12,
     letterSpacing: 0
-  }
+  },
+  View_1: { alignItems: "stretch" },
+  Text_3: {},
+  Button_5: {},
+  Icon_7: {}
 })
